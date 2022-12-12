@@ -9,14 +9,14 @@ pub struct AppStatus {
 
 impl AppStatus {
     pub fn ok() -> AppStatus {
-        AppStatus { status: String::from("Ok") }
+        AppStatus { status: String::from("ok") }
     }
 
     pub fn warning() -> AppStatus {
-        AppStatus { status: String::from("Warning") }
+        AppStatus { status: String::from("warning") }
     }
 
     pub fn error() -> AppStatus {
-        AppStatus { status: String::from("Error") }
+        AppStatus { status: String::from("error") }
     }
 }
