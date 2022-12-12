@@ -11,13 +11,13 @@ pub struct User {
     active: bool
 }
 
-// impl User {
-//     pub fn new(email: String, first_name: String, last_name: String, active: bool) -> User {
-//         User {
-//             email: email,
-//             first_name: first_name,
-//             last_name: last_name,
-//             active: active
-//         }
-//     }
-// }
+impl User {
+    pub fn new(email: String, first_name: String, last_name: String, active: bool) -> User {
+        User {
+            email: email,
+            first_name: first_name,
+            last_name: last_name,
+            active: active
+        }
+    }
+}
